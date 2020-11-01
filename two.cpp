@@ -15,7 +15,7 @@ for(int i=0;i<N;i++)
 }
 
 
-vector <int> bfs(vector<int> g[], int N, int visited[] ) 
+void bfs(vector<int> g[], int N, int visited[] ) 
 {
 queue<int> q;
 visited[0]=1;
@@ -35,5 +35,5 @@ while(q.empty()==false)
         }
     }
 }
- return v;   
+ 
 }
